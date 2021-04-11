@@ -1,0 +1,4 @@
+bin/
+cf2.*
+target/
+current_platform.mk

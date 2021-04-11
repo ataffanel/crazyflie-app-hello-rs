@@ -1,0 +1,11 @@
+[package]
+name = "cfapprs"
+version = "0.1.0"
+authors = ["Arnaud Taffanel <arnaud@taffanel.org>"]
+edition = "2018"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+panic-halt = "0.2"
