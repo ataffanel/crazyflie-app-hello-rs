@@ -9,3 +9,4 @@ crate-type = ["staticlib"]
 
 [dependencies]
 panic-halt = "0.2"
+freertos_rs = "0.3"

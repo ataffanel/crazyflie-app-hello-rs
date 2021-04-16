@@ -13,7 +13,7 @@ CRAZYFLIE_BASE=crazyflie-firmware
 include $(CRAZYFLIE_BASE)/Makefile
 
 lib$(CRATE_NAME).a: FORCE
-	cargo build --release --target thumbv7em-none-eabihf
+	cargo +nightly build --release --target thumbv7em-none-eabihf
 	cp target/thumbv7em-none-eabihf/release/lib$(CRATE_NAME).a bin/
 
 FORCE: 

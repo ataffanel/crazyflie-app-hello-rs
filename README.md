@@ -22,6 +22,7 @@ make
 make cload
 ```
 
+This currently needs the Rust nightly compiler to function, read more [here](https://doc.rust-lang.org/1.2.0/book/nightly-rust.html).
 ## Architecture
 
 The Crazyflie build system allows to add objects to be linked with the Crazyflie.
